@@ -1,0 +1,64 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(113, 240, 219), rgb(45, 96, 179));
+  }
+  .container {
+    height: 450;
+    width: 350;
+    background: linear-gradient rgb(194, 228, 238);
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 4px white;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 100px;
+  }
+  .Inpt {
+    height: 40px;
+    font-size: 25px;
+    width: 400px;
+    border-radius: 7px;
+    background-color: bisque;
+  }
+  ul li {
+    background-color: rgb(240, 166, 217);
+    color: black;
+    height: 25px;
+    border-radius: 50px;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+    font-size: 25px;
+  }
+  .btn {
+    height: 40px;
+    border-radius: 0 15px;
+    width: 70px;
+    font-size: 30px;
+    background-color: rgb(219, 109, 186);
+    box-shadow: 2px 2px 2px 2px rgb(123, 123, 144);
+  }
+  .todo {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 100px;
+  }
+  ul .list {
+    position: absolute;
+    cursor: pointer;
+  }
+  ul li .DeltBtn {
+    position: absolute;
+    cursor: pointer;
+  }
+  li .DeltBtn {
+    right: 15px;
+    color: rgb(226, 12, 12);
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+  }
